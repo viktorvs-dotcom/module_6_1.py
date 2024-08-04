@@ -1,8 +1,11 @@
 class Animal:
-    def __init__(self, eat):
+    def __init__(self, name):
         self.alive = True
         self.fed = False
-        self.name = eat
+        self.name = name
+    
+    def eat(self):
+        pass
 
 
 class Mammal(Animal):
